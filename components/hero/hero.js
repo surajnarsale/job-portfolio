@@ -94,3 +94,64 @@ export const Subtitle = styled.div`
 		line-height: 2.5em;
 	}
 `;
+
+export const Twitter = styled.span`
+	color: #1a8cd8;
+	cursor: pointer;
+	font-weight: 600;
+	position: relative;
+
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: -0.125em;
+		left: -0.5em;
+		right: -0.5em;
+		height: 0.35em;
+		top: 1.35em;
+		transform: skewY(-2deg);
+		background-image: url('/underline1.svg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+`;
+export const Github = styled.span`
+	color: #dbdbdb;
+	cursor: pointer;
+	font-weight: 600;
+	position: relative;
+
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: -0.125em;
+		left: -0.5em;
+		right: -0.5em;
+		height: 0.35em;
+		top: 1.35em;
+		transform: skewY(-2deg);
+		background-image: url('/underline2.svg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+`;
+export const Dribble = styled.span`
+	color: #f082ac;
+	cursor: pointer;
+	font-weight: 600;
+	position: relative;
+
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: -0.125em;
+		left: -0.5em;
+		right: -0.5em;
+		height: 0.35em;
+		top: 1.35em;
+		transform: skewY(-2deg);
+		background-image: url('/underline3.svg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+`;
