@@ -78,7 +78,7 @@ export const Title = styled.div`
 export const Subtitle = styled.div`
 	font-size: 1.4em;
 	color: #bfbfbf;
-	padding: 3rem 25rem 0 0;
+	padding: 3rem 15rem 0 0;
 	line-height: 2.5em;
 
 	@media ${device.laptopL} {
@@ -105,11 +105,11 @@ export const Twitter = styled.span`
 		content: '';
 		position: absolute;
 		bottom: -0.125em;
-		left: -0.5em;
-		right: -0.5em;
+		left: -0.2em;
+		right: -0.2em;
 		height: 0.35em;
 		top: 1.35em;
-		transform: skewY(-2deg);
+		transform: skewY(-3deg);
 		background-image: url('/underline1.svg');
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -125,11 +125,11 @@ export const Github = styled.span`
 		content: '';
 		position: absolute;
 		bottom: -0.125em;
-		left: -0.5em;
-		right: -0.5em;
+		left: -0.2em;
+		right: -0.2em;
 		height: 0.35em;
 		top: 1.35em;
-		transform: skewY(-2deg);
+		transform: skewY(-3deg);
 		background-image: url('/underline2.svg');
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -145,11 +145,11 @@ export const Dribble = styled.span`
 		content: '';
 		position: absolute;
 		bottom: -0.125em;
-		left: -0.5em;
-		right: -0.5em;
+		left: -0.2em;
+		right: -0.2em;
 		height: 0.35em;
 		top: 1.35em;
-		transform: skewY(-2deg);
+		transform: skewY(-3deg);
 		background-image: url('/underline3.svg');
 		background-repeat: no-repeat;
 		background-size: cover;

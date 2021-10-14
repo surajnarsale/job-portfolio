@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import {
 	Author,
 	Container,
@@ -22,9 +23,24 @@ export default function Hero() {
 						<Subtitle>
 							I specialize in rapidly prototyping software companies and
 							web applications. I talk about my journey on
-							<Twitter> Twitter</Twitter>, commit code to
-							<Github> Github</Github>, and take shots on
-							<Dribble> Dribble</Dribble>.
+							<Link href="https://twitter.com/surajnarsale_">
+								<a style={{ textDecoration: 'none' }} target="_blank">
+									<Twitter> Twitter </Twitter>
+								</a>
+							</Link>
+							commit code to
+							<Link href="https://github.com/surajnarsale">
+								<a style={{ textDecoration: 'none' }} target="_blank">
+									<Github> Github </Github>
+								</a>
+							</Link>
+							, and take shots on
+							<Link href="https://dribbble.com/surajnarsale">
+								<a style={{ textDecoration: 'none' }} target="_blank">
+									<Dribble> Dribble </Dribble>
+								</a>
+							</Link>
+							.
 						</Subtitle>
 					</Content>
 				</Wrapper>

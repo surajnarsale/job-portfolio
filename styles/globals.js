@@ -12,6 +12,7 @@ const GlobalStyle = createGlobalStyle`
 }
 body{
    font-family: 'Inter', sans-serif;
+   overflow-x: hidden;
 }
 img{
 	width: 100%;
