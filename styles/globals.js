@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
+
 :root{
 
 }
@@ -10,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
    box-sizing: border-box;
 }
 body{
-   font-family: 'Montserrat', sans-serif;
+   font-family: 'Inter', sans-serif;
 }
 img{
 	width: 100%;

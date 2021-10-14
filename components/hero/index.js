@@ -8,13 +8,11 @@ export default function Hero() {
 				<Wrapper>
 					<Content>
 						<Author>suraj narsale</Author>
-						<Title>
-							Full-Stack Web <br />
-							Developer
-						</Title>
+						<Title>Front-End Developer & Designer</Title>
 						<Subtitle>
-							I build an enjoyable web experience that solves clients
-							problems.
+							I specialize in rapidly prototyping software companies and
+							web applications. I talk about my journey on Twitter,
+							commit code to Github, and take shots on Dribbble.
 						</Subtitle>
 					</Content>
 				</Wrapper>

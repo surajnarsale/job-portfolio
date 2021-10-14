@@ -59,28 +59,38 @@ export const Author = styled.h1`
 `;
 
 export const Title = styled.div`
-	font-size: 7em;
+	font-size: 6em;
 	margin: 0;
 	font-weight: 600;
 	color: white;
 	line-height: 8rem;
+	padding: 0 1em 0 0;
 
+	@media ${device.tablet} {
+		padding: 0 0 0 0;
+		line-height: 1.6em;
+	}
 	@media ${device.mobileL} {
 		line-height: 4rem;
+		padding: 0 0 0 0;
 	}
 `;
 export const Subtitle = styled.div`
 	font-size: 1.4em;
 	color: #bfbfbf;
-	padding: 3rem 0 0 0;
+	padding: 3rem 25rem 0 0;
+	line-height: 2.5em;
 
 	@media ${device.laptopL} {
 		font-size: 2.4em;
+		padding: 1em 0 0 0;
 	}
 	@media ${device.tablet} {
 		font-size: 2em;
 	}
 	@media ${device.mobileL} {
 		font-size: 2em;
+		padding: 2rem 0 0 0;
+		line-height: 2.5em;
 	}
 `;

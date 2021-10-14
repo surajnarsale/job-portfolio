@@ -22,6 +22,7 @@ export const Logo = styled.div`
 	}
 	@media ${device.tablet} {
 		font-size: 1.5em;
+		left: 1rem;
 	}
 `;
 export const LogoBtnDiv = styled.div`
@@ -52,10 +53,10 @@ export const HamburgerWrapper = styled.div`
 	@media ${device.laptopL} {
 		font-size: 2em;
 		top: 2rem;
-		right: 2rem;
+		right: 1rem;
 		padding: 4px 4px;
 	}
-	@media ${device.tablet} {
+	@media ${device.mobileL} {
 	}
 `;
 
