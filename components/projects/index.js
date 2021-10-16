@@ -21,7 +21,11 @@ export default function Projects() {
 				<Wrapper>
 					<Left>
 						<Inner>
-							<Subtitle>Admin Dashboard</Subtitle>
+							<Subtitle>
+								Unitor
+								<br />
+								Admin Dashboard
+							</Subtitle>
 							<Stack>
 								<StackItem>React</StackItem>
 								<StackItem>Axios</StackItem>
@@ -29,9 +33,8 @@ export default function Projects() {
 								<StackItem>Vue</StackItem>
 							</Stack>
 							<Feature>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Reprehenderit sint, molestias qui nihil accusamus
-								praesentium vel tenetur quisquam quas rem.
+								Unitor is a personal CMS for E-com, blog or any other
+								site management.
 							</Feature>
 							<SocialLinks>
 								<Link href="https://remadee.netlify.app/">
@@ -59,7 +62,9 @@ export default function Projects() {
 				<Wrapper>
 					<Left>
 						<Inner>
-							<Subtitle>Movie app with microinteraction</Subtitle>
+							<Subtitle>
+								remade <br /> Movie app with microinteraction
+							</Subtitle>
 							<Stack>
 								<StackItem>React</StackItem>
 								<StackItem>Axios</StackItem>
@@ -67,9 +72,8 @@ export default function Projects() {
 								<StackItem>Vue</StackItem>
 							</Stack>
 							<Feature>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Reprehenderit sint, molestias qui nihil accusamus
-								praesentium vel tenetur quisquam quas rem.
+								Remade is a movie site with microinteractions integrated
+								with TMDB exposed api's.
 							</Feature>
 							<SocialLinks>
 								<Link href="https://remadee.netlify.app/">
@@ -97,7 +101,11 @@ export default function Projects() {
 				<Wrapper>
 					<Left>
 						<Inner>
-							<Subtitle>Ip tracker</Subtitle>
+							<Subtitle>
+								onip
+								<br />
+								Ip tracker
+							</Subtitle>
 							<Stack>
 								<StackItem>React</StackItem>
 								<StackItem>Axios</StackItem>
@@ -105,9 +113,9 @@ export default function Projects() {
 								<StackItem>Vue</StackItem>
 							</Stack>
 							<Feature>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Reprehenderit sint, molestias qui nihil accusamus
-								praesentium vel tenetur quisquam quas rem.
+								Onip is a public ip tracker that displays loacation of
+								any public IP address on map. Also it can show the
+								public ip of the system by which it is accessed.
 							</Feature>
 							<SocialLinks>
 								<Link href="https://remadee.netlify.app/">
@@ -135,7 +143,11 @@ export default function Projects() {
 				<Wrapper>
 					<Left>
 						<Inner>
-							<Subtitle>Crptocurrency tracker</Subtitle>
+							<Subtitle>
+								minet
+								<br />
+								Crptocurrency tracker
+							</Subtitle>
 							<Stack>
 								<StackItem>React</StackItem>
 								<StackItem>Axios</StackItem>
@@ -143,9 +155,8 @@ export default function Projects() {
 								<StackItem>Vue</StackItem>
 							</Stack>
 							<Feature>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Reprehenderit sint, molestias qui nihil accusamus
-								praesentium vel tenetur quisquam quas rem.
+								Minet is a realtime cryptocurrency price tracker which
+								delivers realtime data with GUI.
 							</Feature>
 							<SocialLinks>
 								<Link href="https://remadee.netlify.app/">
@@ -173,7 +184,11 @@ export default function Projects() {
 				<Wrapper>
 					<Left>
 						<Inner>
-							<Subtitle>vs code theme</Subtitle>
+							<Subtitle>
+								eternals
+								<br />
+								vs code theme
+							</Subtitle>
 							<Stack>
 								<StackItem>React</StackItem>
 								<StackItem>Axios</StackItem>
@@ -181,9 +196,8 @@ export default function Projects() {
 								<StackItem>Vue</StackItem>
 							</Stack>
 							<Feature>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Reprehenderit sint, molestias qui nihil accusamus
-								praesentium vel tenetur quisquam quas rem.
+								Eternals is a vs code dark theme suitable for long hours
+								of coding sessions.
 							</Feature>
 							<SocialLinks>
 								<Link href="https://remadee.netlify.app/">
