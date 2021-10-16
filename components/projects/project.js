@@ -16,7 +16,7 @@ export const Wrapper = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-bottom: 2rem;
+	padding-bottom: 3em;
 
 	& img {
 		border-radius: 0.5em;
@@ -28,6 +28,7 @@ export const Wrapper = styled.div`
 
 	@media ${device.laptopL} {
 		padding: 0 5rem;
+		padding-bottom: 3em;
 
 		& img {
 			border-radius: 1em;
@@ -106,7 +107,7 @@ export const Feature = styled.p`
 	font-size: 0.9em;
 	line-height: 1.8em;
 	font-weight: 500;
-	padding-top: 2em;
+	padding-top: 1em;
 
 	@media ${device.tablet} {
 	}

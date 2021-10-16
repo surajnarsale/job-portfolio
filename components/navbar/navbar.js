@@ -100,3 +100,9 @@ export const Div = styled.div`
 			open ? 'translate(16.4px, -10px) rotatez(45deg)' : null};
 	}
 `;
+
+export const LogoSvg = styled.svg``;
+export const Rect1 = styled.rect``;
+export const Rect2 = styled.rect``;
+export const Rect3 = styled.rect``;
+export const Path = styled.path``;

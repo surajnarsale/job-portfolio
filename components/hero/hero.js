@@ -50,7 +50,7 @@ export const Author = styled.h1`
 	text-transform: uppercase;
 	letter-spacing: 0.5rem;
 	color: #00ee79;
-	padding: 0 0 6rem 0;
+	padding: 0 0 2em 0;
 
 	@media ${device.mobileL} {
 		padding: 0 0 2rem 0;

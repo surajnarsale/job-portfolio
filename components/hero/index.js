@@ -11,6 +11,55 @@ import {
 	Twitter,
 	Wrapper,
 } from './hero';
+import { motion } from 'framer-motion';
+const nameVariants = {
+	hidden: {
+		opacity: 0,
+		y: '-20px',
+	},
+	visible: {
+		opacity: 1,
+		y: 0,
+		transition: {
+			type: 'spring',
+			stiffness: 20,
+			ease: 'easeIn',
+			delay: 0.1,
+		},
+	},
+};
+const headingVariants = {
+	hidden: {
+		opacity: 0,
+		y: '-20px',
+	},
+	visible: {
+		opacity: 1,
+		y: 0,
+		transition: {
+			type: 'spring',
+			stiffness: 20,
+			ease: 'easeIn',
+			delay: 0.4,
+		},
+	},
+};
+const subHeadingVariants = {
+	hidden: {
+		opacity: 0,
+		y: '-20px',
+	},
+	visible: {
+		opacity: 1,
+		y: 0,
+		transition: {
+			type: 'spring',
+			stiffness: 20,
+			ease: 'easeIn',
+			delay: 0.7,
+		},
+	},
+};
 
 export default function Hero() {
 	return (
@@ -18,9 +67,28 @@ export default function Hero() {
 			<Container>
 				<Wrapper>
 					<Content>
-						<Author>👋 suraj narsale</Author>
-						<Title> Designer & Full-stack developer</Title>
-						<Subtitle>
+						<Author
+							as={motion.h1}
+							variants={nameVariants}
+							initial="hidden"
+							animate="visible"
+						>
+							👋 suraj narsale
+						</Author>
+						<Title
+							as={motion.div}
+							variants={headingVariants}
+							initial="hidden"
+							animate="visible"
+						>
+							Designer & Full-stack developer
+						</Title>
+						<Subtitle
+							as={motion.div}
+							variants={subHeadingVariants}
+							initial="hidden"
+							animate="visible"
+						>
 							I specialize in rapidly prototyping software companies and
 							web applications. I talk about my journey on
 							<Link href="https://twitter.com/surajnarsale_">
