@@ -19,7 +19,7 @@ export const Wrapper = styled.div`
 	padding-bottom: 2rem;
 
 	& img {
-		border-radius: 1em;
+		border-radius: 0.5em;
 		margin-bottom: 2em;
 		margin-left: 2em;
 		float: right;
@@ -74,15 +74,15 @@ export const Inner = styled.div`
 `;
 export const Subtitle = styled.p`
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: 800;
 	color: #00ee79;
-	letter-spacing: 0.2em;
-	font-size: 0.85em;
+	letter-spacing: 0.25em;
+	font-size: 1em;
 `;
 export const Title = styled.p`
 	color: white;
-	font-weight: bold;
-	font-size: 1.3em;
+	font-weight: 600;
+	font-size: 1em;
 	margin-top: 0.4em;
 	display: block;
 	padding-top: 0.3em;

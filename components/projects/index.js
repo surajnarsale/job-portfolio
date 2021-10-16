@@ -16,7 +16,7 @@ export default function Projects() {
 				<Wrapper>
 					<Left>
 						<Inner>
-							<Subtitle>Guitar App</Subtitle>
+							<Subtitle>Admin Dashboard</Subtitle>
 							<Title>Fretastic.com</Title>
 							<Feature>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -26,13 +26,13 @@ export default function Projects() {
 						</Inner>
 					</Left>
 					<a href="#">
-						<img src="/fretty.jpg"></img>
+						<img src="/remade.png"></img>
 					</a>
 				</Wrapper>
 				<Wrapper>
 					<Left>
 						<Inner>
-							<Subtitle>Guitar App</Subtitle>
+							<Subtitle>Movie app with microinteraction</Subtitle>
 							<Title>Fretastic.com</Title>
 							<Feature>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -42,13 +42,13 @@ export default function Projects() {
 						</Inner>
 					</Left>
 					<a href="#">
-						<img src="/fretty.jpg"></img>
+						<img src="/remade.png"></img>
 					</a>
 				</Wrapper>
 				<Wrapper>
 					<Left>
 						<Inner>
-							<Subtitle>Guitar App</Subtitle>
+							<Subtitle>Ip tracker</Subtitle>
 							<Title>Fretastic.com</Title>
 							<Feature>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -58,7 +58,39 @@ export default function Projects() {
 						</Inner>
 					</Left>
 					<a href="#">
-						<img src="/fretty.jpg"></img>
+						<img src="/onip.png"></img>
+					</a>
+				</Wrapper>
+				<Wrapper>
+					<Left>
+						<Inner>
+							<Subtitle>Crptocurrency tracker</Subtitle>
+							<Title>Fretastic.com</Title>
+							<Feature>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Reprehenderit sint, molestias qui nihil accusamus
+								praesentium vel tenetur quisquam quas rem.
+							</Feature>
+						</Inner>
+					</Left>
+					<a href="#">
+						<img src="/remade.png"></img>
+					</a>
+				</Wrapper>
+				<Wrapper>
+					<Left>
+						<Inner>
+							<Subtitle>vs code theme</Subtitle>
+							<Title>Fretastic.com</Title>
+							<Feature>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Reprehenderit sint, molestias qui nihil accusamus
+								praesentium vel tenetur quisquam quas rem.
+							</Feature>
+						</Inner>
+					</Left>
+					<a href="#">
+						<img src="/eternals.png"></img>
 					</a>
 				</Wrapper>
 			</Container>
