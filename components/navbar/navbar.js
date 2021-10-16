@@ -2,8 +2,8 @@ import styled from 'styled-components';
 import { device } from '../../constants/devices';
 
 export const Logo = styled.div`
-	top: 3rem;
-	left: 4rem;
+	top: 1.5rem;
+	left: 2rem;
 	width: 3rem;
 	height: 3rem;
 	position: fixed;
@@ -39,8 +39,8 @@ export const LogoBtn = styled.button`
 `;
 
 export const HamburgerWrapper = styled.div`
-	top: 3rem;
-	right: 4rem;
+	top: 1.5rem;
+	right: 2rem;
 	position: fixed;
 	z-index: 99999;
 	cursor: pointer;

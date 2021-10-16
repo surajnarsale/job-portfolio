@@ -54,7 +54,7 @@ export const Author = styled.h1`
 
 	@media ${device.mobileL} {
 		padding: 0 0 2rem 0;
-		margin-top: 2rem;
+		margin-top: 0.7rem;
 	}
 `;
 

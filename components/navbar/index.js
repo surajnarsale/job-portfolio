@@ -1,24 +1,22 @@
 import React, { useState } from 'react';
-
+import { Squash as Hamburger } from 'hamburger-react';
 import { Div, HamburgerWrapper, Logo } from './navbar';
 
 export default function Navbar() {
-	const [open, setOpen] = useState(false);
+	const [isOpen, setOpen] = useState(false);
 
 	return (
 		<>
-			<Logo>S</Logo>
-			<HamburgerWrapper
-				open={open}
-				setOpen={setOpen}
-				onClick={() => {
-					setOpen(!open);
-					console.log(open);
-				}}
-			>
-				<Div></Div>
-				<Div></Div>
-				<Div></Div>
+			<Logo>
+				<img src="/logoSVG.svg" alt="mainLogo" />
+			</Logo>
+			<HamburgerWrapper>
+				<Hamburger
+					toggled={isOpen}
+					toggle={setOpen}
+					color={'white'}
+					size={25}
+				/>
 			</HamburgerWrapper>
 		</>
 	);
