@@ -19,7 +19,7 @@ export default function Hero() {
 				<Wrapper>
 					<Content>
 						<Author>👋 suraj narsale</Author>
-						<Title>Front-End Developer & Designer</Title>
+						<Title> Designer & Full-stack developer</Title>
 						<Subtitle>
 							I specialize in rapidly prototyping software companies and
 							web applications. I talk about my journey on
