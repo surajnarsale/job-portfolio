@@ -79,17 +79,30 @@ export const Subtitle = styled.p`
 	letter-spacing: 0.25em;
 	font-size: 1em;
 `;
-export const Title = styled.p`
-	color: white;
+export const Stack = styled.div`
+	/* color: white;
 	font-weight: 600;
 	font-size: 1em;
 	margin-top: 0.4em;
 	display: block;
-	padding-top: 0.3em;
+	padding-top: 0.3em; */
+
+	display: flex;
+	flex-wrap: wrap;
+	color: #bfbfbf;
+	font-weight: 400;
+	font-size: 0.6em;
+	padding-top: 1.5em;
+`;
+export const StackItem = styled.div`
+	margin-right: 1em;
+	background-color: #202022;
+	padding: 0.5em 0.8em;
+	border-radius: 0.3em;
 `;
 export const Feature = styled.p`
 	color: #bfbfbf;
-	margin-bottom: 3em;
+	margin-bottom: 1.7em;
 	font-size: 0.9em;
 	line-height: 1.8em;
 	font-weight: 500;
@@ -98,3 +111,4 @@ export const Feature = styled.p`
 	@media ${device.tablet} {
 	}
 `;
+export const SocialLinks = styled.div``;
