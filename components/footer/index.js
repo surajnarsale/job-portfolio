@@ -15,20 +15,20 @@ export default function Footer() {
 				<Wrapper>
 					<Icons>
 						<a href="https://www.google.com">
-							<AiFillGithub size={30} color={'white'} />
+							<AiFillGithub size={25} color={'white'} />
 						</a>
 
 						<a href="https://www.google.com">
-							<AiFillTwitterCircle size={30} color={'white'} />
+							<AiFillTwitterCircle size={25} color={'white'} />
 						</a>
 						<a href="https://www.google.com">
-							<AiFillInstagram size={30} color={'white'} />
+							<AiFillInstagram size={25} color={'white'} />
 						</a>
 						<a href="https://www.google.com">
-							<FaFacebook size={30} color={'white'} />
+							<FaFacebook size={25} color={'white'} />
 						</a>
 						<a href="https://www.google.com">
-							<FiDribbble size={30} color={'white'} />
+							<FiDribbble size={25} color={'white'} />
 						</a>
 					</Icons>
 				</Wrapper>
