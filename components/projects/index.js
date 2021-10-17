@@ -61,8 +61,8 @@ export default function Projects() {
 							</SocialLinks>
 						</Inner>
 					</Left>
-					<a href="#">
-						<img src="/remade.png"></img>
+					<a href="https://unitor.netlify.app/" target="_blank">
+						<img src="/unitor.png"></img>
 					</a>
 				</Wrapper>
 				<Wrapper>
@@ -107,7 +107,7 @@ export default function Projects() {
 							</SocialLinks>
 						</Inner>
 					</Left>
-					<a href="#">
+					<a href="https://remadee.netlify.app/" target="_blank">
 						<img src="/remade.png"></img>
 					</a>
 				</Wrapper>
@@ -157,7 +157,7 @@ export default function Projects() {
 							</SocialLinks>
 						</Inner>
 					</Left>
-					<a href="#">
+					<a href="https://onip.netlify.app/" target="_blank">
 						<img src="/onip.png"></img>
 					</a>
 				</Wrapper>
@@ -204,8 +204,8 @@ export default function Projects() {
 							</SocialLinks>
 						</Inner>
 					</Left>
-					<a href="#">
-						<img src="/remade.png"></img>
+					<a href="https://minet.netlify.app/" target="_blank">
+						<img src="/minet.png"></img>
 					</a>
 				</Wrapper>
 				<Wrapper>
@@ -249,7 +249,10 @@ export default function Projects() {
 							</SocialLinks>
 						</Inner>
 					</Left>
-					<a href="#">
+					<a
+						href="https://marketplace.visualstudio.com/items?itemName=SurajNarsale.eternals"
+						target="_blank"
+					>
 						<img src="/eternals.png"></img>
 					</a>
 				</Wrapper>

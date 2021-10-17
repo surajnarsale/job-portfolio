@@ -26,9 +26,7 @@ export default function About() {
 						<Item>
 							<Services>
 								<Title>Design</Title>
-								<Description>
-									Create digital products with unique ideas
-								</Description>
+								<Description>Design from logo to product</Description>
 							</Services>
 							<IconWrapper>
 								<SiAltiumdesigner
@@ -41,7 +39,9 @@ export default function About() {
 						<Item>
 							<Services>
 								<Title>Full-Stack</Title>
-								<Description>I develop full-stack apps</Description>
+								<Description>
+									I develop full-stack app/sites with sustainable code
+								</Description>
 							</Services>
 							<IconWrapper>
 								<FaCode
