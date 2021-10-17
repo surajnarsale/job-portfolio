@@ -39,20 +39,22 @@ export const LogoBtn = styled.button`
 `;
 
 export const HamburgerWrapper = styled.div`
-	top: 1.5rem;
+	top: 1em;
 	right: 2rem;
 	position: fixed;
 	z-index: 99999;
 	cursor: pointer;
 	width: 3rem;
-	height: 3rem;
+	height: auto;
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	flex-direction: column;
 	padding: 0 4px;
 
 	@media ${device.laptopL} {
 		font-size: 2em;
-		top: 2rem;
+		top: 0.8em;
 		right: 1rem;
 		padding: 4px 4px;
 	}
