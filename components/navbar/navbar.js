@@ -2,8 +2,8 @@ import styled from 'styled-components';
 import { device } from '../../constants/devices';
 
 export const Logo = styled.div`
-	top: 3rem;
-	left: 4rem;
+	top: 1.5rem;
+	left: 2rem;
 	width: 3rem;
 	height: 3rem;
 	position: fixed;
@@ -22,6 +22,7 @@ export const Logo = styled.div`
 	}
 	@media ${device.tablet} {
 		font-size: 1.5em;
+		left: 1rem;
 	}
 `;
 export const LogoBtnDiv = styled.div`
@@ -38,24 +39,26 @@ export const LogoBtn = styled.button`
 `;
 
 export const HamburgerWrapper = styled.div`
-	top: 3rem;
-	right: 4rem;
+	top: 1em;
+	right: 2rem;
 	position: fixed;
 	z-index: 99999;
 	cursor: pointer;
 	width: 3rem;
-	height: 3rem;
+	height: auto;
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	flex-direction: column;
 	padding: 0 4px;
 
 	@media ${device.laptopL} {
 		font-size: 2em;
-		top: 2rem;
-		right: 2rem;
+		top: 0.8em;
+		right: 1rem;
 		padding: 4px 4px;
 	}
-	@media ${device.tablet} {
+	@media ${device.mobileL} {
 	}
 `;
 
@@ -99,3 +102,9 @@ export const Div = styled.div`
 			open ? 'translate(16.4px, -10px) rotatez(45deg)' : null};
 	}
 `;
+
+export const LogoSvg = styled.svg``;
+export const Rect1 = styled.rect``;
+export const Rect2 = styled.rect``;
+export const Rect3 = styled.rect``;
+export const Path = styled.path``;

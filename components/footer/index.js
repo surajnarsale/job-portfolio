@@ -14,21 +14,21 @@ export default function Footer() {
 			<Container>
 				<Wrapper>
 					<Icons>
-						<a href="https://www.google.com">
-							<AiFillGithub size={30} color={'white'} />
+						<a href="https://github.com/surajnarsale" target="_blank">
+							<AiFillGithub size={25} color={'white'} />
 						</a>
 
-						<a href="https://www.google.com">
-							<AiFillTwitterCircle size={30} color={'white'} />
+						<a href="https://twitter.com/surajnarsale_" target="_blank">
+							<AiFillTwitterCircle size={25} color={'white'} />
 						</a>
-						<a href="https://www.google.com">
-							<AiFillInstagram size={30} color={'white'} />
+						<a href="https://github.com/surajnarsale" target="_blank">
+							<AiFillInstagram size={25} color={'white'} />
 						</a>
-						<a href="https://www.google.com">
-							<FaFacebook size={30} color={'white'} />
+						<a href="https://github.com/surajnarsale" target="_blank">
+							<FaFacebook size={25} color={'white'} />
 						</a>
-						<a href="https://www.google.com">
-							<FiDribbble size={30} color={'white'} />
+						<a href="https://dribbble.com/surajnarsale" target="_blank">
+							<FiDribbble size={25} color={'white'} />
 						</a>
 					</Icons>
 				</Wrapper>

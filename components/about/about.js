@@ -41,9 +41,16 @@ export const Right = styled.div`
 
 export const Item = styled.div`
 	background: #202022;
-	padding: 3em;
-	margin-bottom: 3em;
+	padding: 2.5em;
+	margin-bottom: 2em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 `;
+export const Services = styled.div`
+	padding-right: 3em;
+`;
+export const IconWrapper = styled.div``;
 
 export const Title = styled.p`
 	font-size: 1.5em;
@@ -73,9 +80,13 @@ export const Quote = styled.p`
 	padding-top: 2.5rem;
 	font-size: 1em;
 	font-style: italic;
+
+	@media ${device.mobileL} {
+		font-size: 0.9em;
+	}
 `;
 export const Story = styled.p`
 	color: #bfbfbf;
 	padding-top: 2.5rem;
-	line-height: 1.8em;
+	line-height: 2.5em;
 `;

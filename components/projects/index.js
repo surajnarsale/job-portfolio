@@ -4,10 +4,15 @@ import {
 	Feature,
 	Inner,
 	Left,
+	SocialLinks,
+	Stack,
+	StackItem,
 	Subtitle,
-	Title,
 	Wrapper,
 } from './project';
+import { BiLinkExternal } from 'react-icons/bi';
+import { AiFillGithub } from 'react-icons/ai';
+import Link from 'next/link';
 
 export default function Projects() {
 	return (
@@ -16,49 +21,236 @@ export default function Projects() {
 				<Wrapper>
 					<Left>
 						<Inner>
-							<Subtitle>Guitar App</Subtitle>
-							<Title>Fretastic.com</Title>
+							<Subtitle>
+								Unitor
+								<br />
+								Admin Dashboard
+							</Subtitle>
+							<Stack>
+								<StackItem>React</StackItem>
+								<StackItem>Recharts</StackItem>
+								<StackItem>react-router</StackItem>
+							</Stack>
 							<Feature>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Reprehenderit sint, molestias qui nihil accusamus
-								praesentium vel tenetur quisquam quas rem.
+								Unitor is a personal CMS for E-com, blog or any other
+								site management.
 							</Feature>
+							<SocialLinks>
+								<Link href="https://unitor.netlify.app/">
+									<a
+										style={{ textDecoration: 'none' }}
+										target="_blank"
+									>
+										<BiLinkExternal
+											size={25}
+											style={{ color: '#dadada' }}
+										/>
+									</a>
+								</Link>
+								<Link href="https://github.com/surajnarsale/unitor-admin-panel">
+									<a
+										style={{ textDecoration: 'none' }}
+										target="_blank"
+									>
+										<AiFillGithub
+											size={25}
+											style={{ color: '#dadada', marginLeft: '1em' }}
+										/>
+									</a>
+								</Link>
+							</SocialLinks>
 						</Inner>
 					</Left>
 					<a href="#">
-						<img src="/fretty.jpg"></img>
+						<img src="/remade.png"></img>
 					</a>
 				</Wrapper>
 				<Wrapper>
 					<Left>
 						<Inner>
-							<Subtitle>Guitar App</Subtitle>
-							<Title>Fretastic.com</Title>
+							<Subtitle>
+								remade <br /> Movie app with microinteraction
+							</Subtitle>
+							<Stack>
+								<StackItem>React</StackItem>
+								<StackItem>Axios</StackItem>
+								<StackItem>Swiper</StackItem>
+								<StackItem>Sass</StackItem>
+							</Stack>
 							<Feature>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Reprehenderit sint, molestias qui nihil accusamus
-								praesentium vel tenetur quisquam quas rem.
+								Remade is a movie site with microinteractions integrated
+								with TMDB exposed api's.
 							</Feature>
+							<SocialLinks>
+								<Link href="https://remadee.netlify.app/">
+									<a
+										style={{ textDecoration: 'none' }}
+										target="_blank"
+									>
+										<BiLinkExternal
+											size={25}
+											style={{ color: '#dadada' }}
+										/>
+									</a>
+								</Link>
+								<Link href="https://github.com/surajnarsale/remade">
+									<a
+										style={{ textDecoration: 'none' }}
+										target="_blank"
+									>
+										<AiFillGithub
+											size={25}
+											style={{ color: '#dadada', marginLeft: '1em' }}
+										/>
+									</a>
+								</Link>
+							</SocialLinks>
 						</Inner>
 					</Left>
 					<a href="#">
-						<img src="/fretty.jpg"></img>
+						<img src="/remade.png"></img>
 					</a>
 				</Wrapper>
 				<Wrapper>
 					<Left>
 						<Inner>
-							<Subtitle>Guitar App</Subtitle>
-							<Title>Fretastic.com</Title>
+							<Subtitle>
+								onip
+								<br />
+								Ip tracker
+							</Subtitle>
+							<Stack>
+								<StackItem>Vue</StackItem>
+								<StackItem>Axios</StackItem>
+								<StackItem>Corejs</StackItem>
+								<StackItem>Leaflet</StackItem>
+								<StackItem>Tailwindcss</StackItem>
+							</Stack>
 							<Feature>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Reprehenderit sint, molestias qui nihil accusamus
-								praesentium vel tenetur quisquam quas rem.
+								Onip is a public ip tracker that displays loacation of
+								any public IP address on map. Also it can show the
+								public ip of the system by which it is accessed.
 							</Feature>
+							<SocialLinks>
+								<Link href="https://onip.netlify.app/">
+									<a
+										style={{ textDecoration: 'none' }}
+										target="_blank"
+									>
+										<BiLinkExternal
+											size={25}
+											style={{ color: '#dadada' }}
+										/>
+									</a>
+								</Link>
+								<Link href="https://github.com/surajnarsale/onip-iptracker">
+									<a
+										style={{ textDecoration: 'none' }}
+										target="_blank"
+									>
+										<AiFillGithub
+											size={25}
+											style={{ color: '#dadada', marginLeft: '1em' }}
+										/>
+									</a>
+								</Link>
+							</SocialLinks>
 						</Inner>
 					</Left>
 					<a href="#">
-						<img src="/fretty.jpg"></img>
+						<img src="/onip.png"></img>
+					</a>
+				</Wrapper>
+				<Wrapper>
+					<Left>
+						<Inner>
+							<Subtitle>
+								minet
+								<br />
+								Crptocurrency tracker
+							</Subtitle>
+							<Stack>
+								<StackItem>React</StackItem>
+								<StackItem>Axios</StackItem>
+								<StackItem>CoinGecko</StackItem>
+							</Stack>
+							<Feature>
+								Minet is a realtime cryptocurrency price tracker which
+								delivers realtime data with GUI.
+							</Feature>
+							<SocialLinks>
+								<Link href="https://minet.netlify.app/">
+									<a
+										style={{ textDecoration: 'none' }}
+										target="_blank"
+									>
+										<BiLinkExternal
+											size={25}
+											style={{ color: '#dadada' }}
+										/>
+									</a>
+								</Link>
+								<Link href="https://github.com/surajnarsale/minet-cryptocurrency-price-tracker">
+									<a
+										style={{ textDecoration: 'none' }}
+										target="_blank"
+									>
+										<AiFillGithub
+											size={25}
+											style={{ color: '#dadada', marginLeft: '1em' }}
+										/>
+									</a>
+								</Link>
+							</SocialLinks>
+						</Inner>
+					</Left>
+					<a href="#">
+						<img src="/remade.png"></img>
+					</a>
+				</Wrapper>
+				<Wrapper>
+					<Left>
+						<Inner>
+							<Subtitle>
+								eternals
+								<br />
+								vs code theme
+							</Subtitle>
+							<Stack>
+								<StackItem>Json</StackItem>
+							</Stack>
+							<Feature>
+								Eternals is a vs code dark theme suitable for long hours
+								of coding sessions.
+							</Feature>
+							<SocialLinks>
+								<Link href="https://marketplace.visualstudio.com/items?itemName=SurajNarsale.eternals">
+									<a
+										style={{ textDecoration: 'none' }}
+										target="_blank"
+									>
+										<BiLinkExternal
+											size={25}
+											style={{ color: '#dadada' }}
+										/>
+									</a>
+								</Link>
+								<Link href="https://github.com/surajnarsale/eternals-vscode-theme">
+									<a
+										style={{ textDecoration: 'none' }}
+										target="_blank"
+									>
+										<AiFillGithub
+											size={25}
+											style={{ color: '#dadada', marginLeft: '1em' }}
+										/>
+									</a>
+								</Link>
+							</SocialLinks>
+						</Inner>
+					</Left>
+					<a href="#">
+						<img src="/eternals.png"></img>
 					</a>
 				</Wrapper>
 			</Container>

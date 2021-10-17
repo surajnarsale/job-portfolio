@@ -16,10 +16,10 @@ export const Wrapper = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-bottom: 2rem;
+	padding-bottom: 3em;
 
 	& img {
-		border-radius: 1em;
+		border-radius: 0.5em;
 		margin-bottom: 2em;
 		margin-left: 2em;
 		float: right;
@@ -28,6 +28,7 @@ export const Wrapper = styled.div`
 
 	@media ${device.laptopL} {
 		padding: 0 5rem;
+		padding-bottom: 3em;
 
 		& img {
 			border-radius: 1em;
@@ -74,27 +75,41 @@ export const Inner = styled.div`
 `;
 export const Subtitle = styled.p`
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: 800;
 	color: #00ee79;
-	letter-spacing: 0.2em;
-	font-size: 0.85em;
+	letter-spacing: 0.25em;
+	font-size: 1em;
 `;
-export const Title = styled.p`
-	color: white;
-	font-weight: bold;
-	font-size: 1.3em;
+export const Stack = styled.div`
+	/* color: white;
+	font-weight: 600;
+	font-size: 1em;
 	margin-top: 0.4em;
 	display: block;
-	padding-top: 0.3em;
+	padding-top: 0.3em; */
+
+	display: flex;
+	flex-wrap: wrap;
+	color: #bfbfbf;
+	font-weight: 400;
+	font-size: 0.6em;
+	padding-top: 1.5em;
+`;
+export const StackItem = styled.div`
+	margin-right: 1em;
+	background-color: #202022;
+	padding: 0.5em 0.8em;
+	border-radius: 0.3em;
 `;
 export const Feature = styled.p`
 	color: #bfbfbf;
-	margin-bottom: 3em;
+	margin-bottom: 1.7em;
 	font-size: 0.9em;
 	line-height: 1.8em;
 	font-weight: 500;
-	padding-top: 2em;
+	padding-top: 1em;
 
 	@media ${device.tablet} {
 	}
 `;
+export const SocialLinks = styled.div``;

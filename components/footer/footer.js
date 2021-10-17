@@ -22,4 +22,8 @@ export const Icons = styled.div`
 	display: flex;
 	justify-content: space-between;
 	width: 15rem;
+
+	@media ${device.mobileL} {
+		float: left;
+	}
 `;
