@@ -58,34 +58,14 @@ export const Author = styled.h1`
   }
 `;
 
-// export const Title = styled.div`
-// 	font-size: 6em;
-// 	margin: 0;
-// 	font-weight: 600;
-// 	color: white;
-// 	line-height: 8rem;
-// 	padding: 0 1em 0 0;
-
-// 	@media ${device.tablet} {
-// 		padding: 0 0 0 0;
-// 		line-height: 1.6em;
-// 	}
-// 	@media ${device.mobileL} {
-// 		line-height: 4rem;
-// 		padding: 0 0 0 0;
-// 	}
-// `;
 export const Title = styled.div`
-  font-size: 10em;
+  font-size: 6em;
   margin: 0;
-  font-weight: 800;
-  letter-spacing: 2rem;
+  font-weight: 600;
   color: white;
   line-height: 8rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+  padding: 0 1em 0 0;
+
   @media ${device.tablet} {
     padding: 0 0 0 0;
     line-height: 1.6em;
@@ -95,6 +75,26 @@ export const Title = styled.div`
     padding: 0 0 0 0;
   }
 `;
+// export const Title = styled.div`
+//   font-size: 10em;
+//   margin: 0;
+//   font-weight: 800;
+//   letter-spacing: 2rem;
+//   color: white;
+//   line-height: 8rem;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   height: 100%;
+//   @media ${device.tablet} {
+//     padding: 0 0 0 0;
+//     line-height: 1.6em;
+//   }
+//   @media ${device.mobileL} {
+//     line-height: 4rem;
+//     padding: 0 0 0 0;
+//   }
+// `;
 
 export const Subtitle = styled.div`
   font-size: 1.4em;

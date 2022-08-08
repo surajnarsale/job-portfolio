@@ -67,38 +67,39 @@ export default function Hero() {
       <Container>
         <Wrapper>
           <Content>
-            {/* <Author
+            <Author
               as={motion.h1}
               variants={nameVariants}
               initial="hidden"
               animate="visible"
             >
               👋 suraj narsale
-            </Author> */}
-            {/* <Title
+            </Author>
+            <Title
               as={motion.div}
               variants={headingVariants}
               initial="hidden"
               animate="visible"
             >
-              Designer & Full-stack developer
-            </Title> */}
-            <Title
+              Designer & Software Engineer
+            </Title>
+            {/* <Title
               as={motion.h1}
               variants={nameVariants}
               initial="hidden"
               animate="visible"
             >
               WIP
-            </Title>
-            {/* <Subtitle
+            </Title> */}
+            <Subtitle
               as={motion.div}
               variants={subHeadingVariants}
               initial="hidden"
               animate="visible"
             >
-              I specialize in rapidly prototyping software companies and web
-              applications. I talk about my journey on
+              Been working as a freelancer and software engineer on the web
+              world. Excited for the upcoming opportunities. I talk about my
+              journey on
               <Link href="https://twitter.com/surajnarsale_">
                 <a style={{ textDecoration: "none" }} target="_blank">
                   <Twitter> Twitter </Twitter>
@@ -117,7 +118,7 @@ export default function Hero() {
                 </a>
               </Link>
               .
-            </Subtitle> */}
+            </Subtitle>
           </Content>
         </Wrapper>
       </Container>
