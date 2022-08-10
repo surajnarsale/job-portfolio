@@ -27,8 +27,8 @@ export default function About() {
               <Services>
                 <Title>Product Design</Title>
                 <Description>
-                  I have experience in developing products from scaratch. I can
-                  bring idea to life.
+                  I have experience in developing products from scratch. I can
+                  bring an idea to life.
                 </Description>
               </Services>
               <IconWrapper>
@@ -42,7 +42,7 @@ export default function About() {
             <Item>
               <Services>
                 <Title>Front-End</Title>
-                <Description>I can build pixel perfect UI</Description>
+                <Description>I can build pixel-perfect UI.</Description>
               </Services>
               <IconWrapper>
                 <FaCode
@@ -55,8 +55,8 @@ export default function About() {
               <Services>
                 <Title>Back-End</Title>
                 <Description>
-                  I have hands on experience on backed. Also have worked with
-                  most needed AWS services.{" "}
+                  I have hands-on experience on backend. Also have worked with
+                  most needed AWS services.
                 </Description>
               </Services>
               <IconWrapper>
